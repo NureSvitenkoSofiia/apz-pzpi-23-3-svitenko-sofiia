@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <domain-config cleartextTrafficPermitted="true">
+        <!-- Android emulator → host PC -->
+        <domain includeSubdomains="false">10.0.2.2</domain>
+        <!-- localhost для деяких конфігурацій -->
+        <domain includeSubdomains="false">localhost</domain>
+        <!-- локальна мережа (реальний пристрій → PC) -->
+        <domain includeSubdomains="true">192.168.0.0</domain>
+        <domain includeSubdomains="true">192.168.1.0</domain>
+    </domain-config>
+</network-security-config>

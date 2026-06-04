@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: api-config
+  namespace: printing-system
+data:
+  ASPNETCORE_URLS: "http://+:8080"
+  Slicer__Path: "/opt/slic3r/Slic3r"
+  FileStorage__BasePath: "/data"
+  FileStorage__StlFolder: "stl"
+  FileStorage__GCodeFolder: "gcode"
+  Logging__FilePath: "/data/logs"
+  Backup__Directory: "/data/backups"
+  Jwt__Issuer: "PrintingApi"
+  Jwt__Audience: "PrintingClients"
+  Jwt__ExpiresInMinutes: "1440"

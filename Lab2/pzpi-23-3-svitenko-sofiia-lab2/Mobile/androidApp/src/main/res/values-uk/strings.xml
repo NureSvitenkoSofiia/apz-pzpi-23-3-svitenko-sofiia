@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">3D Менеджер Друку</string>
+    <string name="login">Увійти</string>
+    <string name="email">Електронна пошта</string>
+    <string name="password">Пароль</string>
+    <string name="my_jobs">Мої завдання</string>
+    <string name="new_job">Нове завдання</string>
+    <string name="printers">Принтери</string>
+    <string name="status_pending">Очікує</string>
+    <string name="status_printing">Друкується</string>
+    <string name="status_completed">Завершено</string>
+    <string name="status_failed">Помилка</string>
+    <string name="select_stl">Вибрати STL-файл</string>
+    <string name="select_material">Вибрати матеріал</string>
+    <string name="select_printer">Вибрати принтер</string>
+    <string name="submit">Надіслати</string>
+    <string name="logout">Вийти</string>
+    <string name="settings">Налаштування</string>
+    <string name="language">Мова</string>
+    <string name="loading">Завантаження…</string>
+    <string name="error_network">Помилка мережі. Показано кеш.</string>
+    <string name="no_jobs">Завдань ще немає</string>
+    <string name="material_label">Матеріал: %s %s</string>
+    <string name="printer_label">Принтер: %s</string>
+    <string name="available_grams">Доступно: %.0f г</string>
+    <string name="status_label">Статус: %s</string>
+    <string name="printer_status_online">Онлайн</string>
+    <string name="printer_status_offline">Офлайн</string>
+    <string name="printer_status_busy">Зайнятий</string>
+</resources>
